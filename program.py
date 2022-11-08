@@ -3,16 +3,6 @@ import heapq
 from typing import Any
 from difflib import SequenceMatcher
 
-#-------------------- this Create Array will create you an array after you paste it from the web -------------------------------------------
-#def createArray(troubleCodes):
-#    splitAction = troubleCodes.split("\n")
-#    array = []
-#    for x in range(len(splitAction)):
-#        array.append(splitAction[x])
-#    print(array)
-
-#troubleCodes = ""
-
 def similar(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
